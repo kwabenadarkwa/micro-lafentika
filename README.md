@@ -41,7 +41,7 @@ Size of Instructions in Processor : 16bits.
 
 # Instructions for Contributors
 - The initial designs are organized into one folder.
-- New designs should be added to the [main.circ](./main_designs/main.circ) in the [](./main_designs/) directory.
+- New designs should be added to the [main.circ](./main_designs/main.circ) in the [main_designs](./main_designs/) directory.
 - The main.circ Logisim file has sub-circuits for ALU, register_file, CU.
 - We'll do all our circuit designs in there.
 - Let's get to work
