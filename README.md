@@ -69,6 +69,8 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
 - We'll do all our circuit designs in there.
 - Let's get to work
 
+ - Format of instructions : 
+
 | Category      | rd       | rs1|rs2|A/L|ALUCP|
  :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
 |1|4|4|4|1|2
