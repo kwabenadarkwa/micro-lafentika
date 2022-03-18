@@ -27,7 +27,8 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
 
  <p>Sample DataPath Image (We have to build ours):</p>  
 
-![DataPath](https://docsdrive.com/images/ansinet/itj/2007/fig3-2k7-497-508.gif)    
+  ![Screenshot 2022-03-18 152257](https://user-images.githubusercontent.com/59177804/159033894-b56d2c79-9f1f-481b-a181-a6140a44f9d1.png)
+
 
 # Objectives in order of execution:
 - [ ] Data Path
