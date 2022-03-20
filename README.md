@@ -34,7 +34,8 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
 - [ ] Data Path
 - [x] Arithmetic Logic Unit  
 - [ ] Control Unit
-- [ ] Registers
+- [ ] Register file
+
 - [ ] Buses
 
 # Data Path  
