@@ -25,9 +25,10 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
  
  - Format of instructions - 
 
- <p>Sample DataPath Image (We have to build ours):</p>  
+ <p>Sample DataPath Image</p>  
 
-![DataPath](https://docsdrive.com/images/ansinet/itj/2007/fig3-2k7-497-508.gif)    
+  ![Screenshot 2022-03-18 152257](https://user-images.githubusercontent.com/59177804/159033894-b56d2c79-9f1f-481b-a181-a6140a44f9d1.png)
+
 
 # Objectives in order of execution:
 - [ ] Data Path
@@ -68,6 +69,8 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
 - The main.circ Logisim file has sub-circuits for ALU, register_file, CU.
 - We'll do all our circuit designs in there.
 - Let's get to work
+
+ - Format of instructions : 
 
 | Category      | rd       | rs1|rs2|A/L|ALUCP|
  :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
