@@ -32,9 +32,10 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
 
 # Objectives in order of execution:
 - [ ] Data Path
-- [ ] Arithmetic Logic Unit  
+- [x] Arithmetic Logic Unit  
 - [ ] Control Unit
-- [ ] Registers
+- [ ] Register file
+
 - [ ] Buses
 
 # Data Path  
@@ -43,10 +44,10 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
 # Arithmetic Logic Instructions
 - [x] Addition
 - [x] Subtraction
-- [ ] OR
-- [ ] AND
+- [x] OR
+- [x] AND
 - [x] Multiplication
-- [x] Ripple Adder [Contains both addition and Subtraction]
+
 
 # Control Unit
 
