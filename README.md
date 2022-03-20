@@ -9,12 +9,9 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
     * [Overview](#overview)
     * [Registers](#registers)
     * [ALU](#alu)
-    * [CPU](#cpu)
         * [Codes](#codes)
         * [Read/Write Location](#readwrite-location)
         * [ALU Control](#alu-control)
-        * [Jump Conditions](#jump-conditions)
-* [Changelog](#changelog)
 * [Todo](#todo)
 
 
