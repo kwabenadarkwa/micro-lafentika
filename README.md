@@ -101,7 +101,7 @@ ALU ------  -->
 - New designs should be added to the [main.circ](./main_designs/main.circ) in the [main_designs](./main_designs/) directory.
 - The main.circ Logisim file has sub-circuits for ALU, register_file, CU.
 - We'll do all our circuit designs in there.
-- Let's get to work
+- Let's get some work done
 
  - Format of instructions : 
 
