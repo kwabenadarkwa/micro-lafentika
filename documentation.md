@@ -37,6 +37,7 @@ Instruction Formats:
  :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
 | Category      | rd       | rs1|rs2|A/L|ALUCP|
 
+Sample ALU Instruction: 0090h(Add value in register 1 to register 2 and store it in register 0).
 
 Control Unit*
 -
@@ -76,12 +77,13 @@ Instruction Formats.
 
 
 
-Memory 
-Load 
+### Memory 
+Load :
+The load instruction is an instruction that retrieves data from the memory and stores it in the register file.
 
 
-
-Store
+Store: 
+The store instruction is an instruction that retrieves data from the register file and stores it in the memory.
 
 
 
