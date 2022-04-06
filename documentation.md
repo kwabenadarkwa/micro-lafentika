@@ -37,7 +37,7 @@ Instruction Formats:
  :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
 | Category      | rd       | rs1|rs2|A/L|ALUCP|
 
-Sample ALU Instruction: 0090h(Add value in register 1 to register 2 and store it in register 0).
+Sample ALU Instruction: 0090h - Add reg0, reg 1, reg 2(Add value in register 1 to register 2 and store it in register 0).
 
 Control Unit*
 -
