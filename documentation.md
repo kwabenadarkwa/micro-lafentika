@@ -1,4 +1,13 @@
 # Official Documentation For Project
+### WHAT IS THIS PROJECT?
+This is a microprocssor built based on the RISC and Harvard Architectures.
+The RISC architecture was selected because it is a type of microprocessor architecture that utilizes a small, highly-optimized set of instructions rather than the highly-specialized set of instructions typically found in other architectures.
+
+The Harvard architecture is preferred because an instruction is executed in a single cycle and also CPU can access instructions and read/write at the same time.
+
+Using the Harvard architecture, there are mainly two types of memory to deal with, Instruction and Data Memory. 
+The instruction memory stores the current instruction. It relies on the program counter to select the next instruction.
+The data memory stores the operands, register locations and operations required for an instruction operation.
 
 ### THE REGISTER FILE
 
@@ -84,6 +93,12 @@ The load instruction is an instruction that retrieves data from the memory and s
 
 Store: 
 The store instruction is an instruction that retrieves data from the register file and stores it in the memory.
+
+
+
+### DATA PATH
+Datapath is the path that the input data follows in a processor to appear as an output. 
+
 
 
 
