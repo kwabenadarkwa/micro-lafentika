@@ -9,6 +9,17 @@ Using the Harvard architecture, there are mainly two types of memory to deal wit
 The instruction memory stores the current instruction. It relies on the program counter to select the next instruction.
 The data memory stores the operands, register locations and operations required for an instruction operation.
 
+REQUIREMENTS & PARAMETERS
+ How many instructions? - 12 instructions
+
+ - How many registers? - 16 16-bit registers
+
+ - What size of processor? - 16-bit microprocessor
+
+ - What size of instructions? - 16-bit size instructions
+
+ - What architecture? - Harvard Architecture. 
+
 ### THE REGISTER FILE
 
 - What is a register file?  
