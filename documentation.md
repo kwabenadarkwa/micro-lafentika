@@ -62,7 +62,7 @@ Store
  :----------  |:------------:|:------------:|:------------:|
 |Selecting between ALU and the other operations |Selecting RAM Address|Register Address from which data is sourced|Selecting whether it is a Load/Store Operation| 
 
-Sample Store Operation: 8005h
+Sample Store Operation: 8005h - STR r0, [r0] (Store value in register 0 (0000) in 8-bit RAM Address stored in r0 )
 
 
 
@@ -73,7 +73,7 @@ Load
  :----------  |:------------:|:------------:|:------------:|
 |Selecting between ALU and the other operations | Register Address |Address for data in RAM |Selecting whether it is a Load/Store Operation|  
 
-Sample Load Operation: c004h
+Sample Load Operation: c004h -  LDR r4, [r0] (Load from 8 bit RAM Address in register 0 (0000) into register 4(0100) )
 
 
 
