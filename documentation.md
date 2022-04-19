@@ -29,7 +29,14 @@ A register file is a component that has a structure of multiple registers that a
 How many registers? - 16 registers  
 
 How many ports? - 9 ports.   
-1 select line. 1 enable line , 4 input lines [1 write address port, 1 write data port, 2 register address ports ] , 2 register data ports  
+* 1 select line. 
+  * Has bits used to select a register to read from and write to.
+* 1 enable line  
+  * Responsible for enabling the writing of data to a register file.
+* 4 input lines [1 write address port, 1 write data port, 2 register address ports ] 
+  * The write address port has bits which specifies a particular register file to write to. The write data port contains bits to be written to selected   register. The two register address ports contain bits to specify registers to work on.
+* 2 register data ports  
+  * They contain data read from selected regiters.
 
 Clock input and output  
 
