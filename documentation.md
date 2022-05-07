@@ -10,7 +10,7 @@ The instruction memory stores the current instruction. It relies on the program 
 The data memory stores the operands, register locations and operations required for an instruction operation.
 
 REQUIREMENTS & PARAMETERS
- How many instructions? - 12 instructions
+ How many instructions? - 16 instructions
 
  - How many registers? - 16 16-bit registers
 
@@ -99,7 +99,26 @@ Sample Load Operation: c004h -  LDR r4, [r0] (Load from 8 bit RAM Address in reg
 ### The Branch Component
 
 
-Instruction Formats.
+Instruction Formats:
+
+Branch Equal
+|   15   |14-11 | 10 - 7      | 6 - 3|2 - 0|
+ :----------  |:------------:|:------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations |Offset |Register address with second operand to compare|Register address with first operand to compare|Opcode for Beq operation|
+
+
+
+Branch Not Equal
+|   15   |14 - 11   | 10 - 7    | 6 - 3|2 - 0|
+ :----------  |:--------------:|:------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations |Offset |Register address with second operand to compare|Register address with first operand to compare|Opcode for Bne operation|
+
+
+
+Jump
+|   15   |14 - 12   | 10 - 3|2 - 0|
+ :----------  |:--------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations | Unused |New address in instruction memory to jump to |Opcode for Jump operation|
 
 
 
