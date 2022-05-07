@@ -40,6 +40,9 @@ by implementing a complete, functional 16 bit computer in Logisim.
 |XOR|
 |AND|
 |OR|
+|ORi|
+|ANDi|
+|ADDi|
 
  
  - Format of instructions - 
