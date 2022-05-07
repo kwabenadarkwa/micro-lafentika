@@ -70,14 +70,26 @@ The entire computer is contained in main.circ.
 
 
 # Arithmetic & Logic Instructions
-- [x] Addition : 00
-- [x] Subtraction : 01
-- [x] Multiplication : 10
-- [x] Divider : 11
-- [x] AND : 00
-- [x] OR : 01
-- [x] XOR : 10
-- [x] Negation : 11
+- [x] Addition : 0000
+- [x] Subtraction : 0001
+- [x] Multiplication : 0000
+- [x] Divider : 0011
+- [x] AND : 0100
+- [x] OR : 0101
+- [x] XOR : 0110
+- [x] Negation : 0111
+- [x] ADDi : 1011
+- [x] ORi : 1110
+- [x] ANDi : 1111
+
+
+
+# Memory Instructions
+- [x] Branch Equal(BEQ) : 1000
+- [x] Branch Not Equal (BEQ) : 1001
+- [x] Jump : 1010
+- [x] Load : 1100
+- [ ] Store : 1101
 
 <!--            - - - 1. Arithmetic ---------|
          |
