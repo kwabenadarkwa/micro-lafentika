@@ -121,8 +121,7 @@ ALU
  :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
 |Selecting between ALU and the other operations |Destination Register Address|Source Register 2 Address|Source Register 1 Address|Bit to detemine between Logic or Arithmetic Operations|Particular Operation|
 
-Sample ALU Operation: 8005h - add r3,r2,r1 (Add value in register 1 to value in register 2 and place in r3 )
-
+Sample ALU Instruction: 0090h - Add reg0, reg 1, reg 2(Add value in register 1 to register 2 and store it in register 0).
 
 
 Store 
