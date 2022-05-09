@@ -37,7 +37,7 @@ by implementing a complete, functional 16 bit computer in Logisim.
  :----------  |:------------:|:------------:|
 |Add|Beq|Load|
 |Sub|Bne|Store|
-|Mul|
+|Mul|Jump|
 |Div|
 |Two's Complement|
 |XOR|
@@ -116,14 +116,60 @@ There are 4 main multiplexers:
 
  - Format of instructions : 
 
-| Category      | rd       | rs1|rs2|A/L|ALUCP|
+ALU 
+|   15   | 14 -11      | 10 - 7|6-3|2|1-0|
  :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
-|1|4|4|4|1|2
+|Selecting between ALU and the other operations |Destination Register Address|Source Register 2 Address|Source Register 1 Address|Bit to detemine between Logic or Arithmetic Operations|Particular Operation|
+
+Sample ALU Operation: 8005h - add r3,r2,r1 (Add value in register 1 to value in register 2 and place in r3 )
 
 
-|      |       | ||||
- :----------  |:------------:|:------------:|:------------:|:------------:|:------------:|
-||||||
 
+Store 
+|   15   | 14 - 7      | 6 - 3|2 - 0|
+ :----------  |:------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations |Selecting RAM Address|Register Address from which data is sourced|Selecting whether it is a Load/Store Operation|Selecting whether it is a Load/Store Operation|Selecting whether it is a Load/Store Operation| 
+
+Sample Store Operation: 8005h - STR r0, [r0] (Store value in register 0 (0000) in 8-bit RAM Address stored in r0 )
+
+
+
+
+
+Load 
+|   15   | 14 - 11      | 10 - 3|2 - 0|
+ :----------  |:------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations | Register Address |Address for data in RAM |Selecting whether it is a Load/Store Operation|  
+
+Sample Load Operation: c004h -  LDR r4, [r0] (Load from 8 bit RAM Address in register 0 (0000) into register 4(0100) )
+
+
+
+
+### The Branch Component
+
+
+Instruction Formats:
+
+Branch Equal
+|   15   |14-11 | 10 - 7      | 6 - 3|2 - 0|
+ :----------  |:------------:|:------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations |Offset |Register address with second operand to compare|Register address with first operand to compare|Opcode for Beq operation|
+
+Sample Branch-equal instruction:  E9A0 - Beq reg3,reg4, -3 (check the contents of register 3 and 4, if equal move two step back from 
+the current instruction)
+
+
+Branch Not Equal
+|   15   |14 - 11   | 10 - 7    | 6 - 3|2 - 0|
+ :----------  |:--------------:|:------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations |Offset |Register address with second operand to compare|Register address with first operand to compare|Opcode for Bne operation|
+
+
+
+Jump
+|   15   |14 - 12   | 10 - 3|2 - 0|
+ :----------  |:--------------:|:------------:|:------------:|
+|Selecting between ALU and the other operations | Unused |New address in instruction memory to jump to |Opcode for Jump operation|
 
 Find the DataPaths for the various units in the presentation document.
