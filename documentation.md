@@ -44,7 +44,7 @@ Clock input and output
 ### THE Arithmetic Logic Unit
 Two Inputs
 Select Lines
-No Of Bits
+Number Of Bits
 
 
 #### Components of ALU
@@ -106,6 +106,8 @@ Branch Equal
  :----------  |:------------:|:------------:|:------------:|:------------:|
 |Selecting between ALU and the other operations |Offset |Register address with second operand to compare|Register address with first operand to compare|Opcode for Beq operation|
 
+Sample Branch-equal instruction:  E9A0 - Beq reg3,reg4, -3 (check the contents of register 3 and 4, if equal move two step back from 
+the current instruction)
 
 
 Branch Not Equal
