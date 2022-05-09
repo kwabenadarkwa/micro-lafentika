@@ -44,7 +44,7 @@ Clock input and output
 ### THE Arithmetic Logic Unit
 Two Inputs
 Select Lines
-No Of Bits
+Number Of Bits
 
 
 #### Components of ALU
