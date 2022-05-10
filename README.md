@@ -1,5 +1,5 @@
 # micro-lafentika
-Designing a 16-bit functional microprocessor with basic add,subtract,multiply,and,or operations from scratch with Logisim.  
+Designing a 16-bit functional microprocessor with basic operations from scratch with Logisim.  This is solely for academic purposes.
 
 ## Table of Contents
 
@@ -13,8 +13,6 @@ Designing a 16-bit functional microprocessor with basic add,subtract,multiply,an
     * [Control Unit](#Control-Unit)
     * [Multiplexers](#Multiplexers)
     * [Control Flow](#control-flow)
-* [Todo](#todo)
-
 
 ## Overview
 
