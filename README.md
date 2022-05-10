@@ -48,8 +48,7 @@ by implementing a complete, functional 16 bit computer in Logisim.
 
  <p>Sample DataPath Image</p>  
 
-  ![Screenshot 2022-03-18 152257](https://user-images.githubusercontent.com/59177804/159033894-b56d2c79-9f1f-481b-a181-a6140a44f9d1.png)
-
+![ALU Data Path](https://raw.githubusercontent.com/kwabenadarkwa/micro-lafentika/master/data%20path%20for%20ALU%20instructions.png?token=GHSAT0AAAAAABI4XEQ33ZMOS6ERD2GRKTOAYT23ETA)
 
 ## Installation
 
