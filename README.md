@@ -169,3 +169,7 @@ Jump
 |Selecting between ALU and the other operations | Unused |New address in instruction memory to jump to |Opcode for Jump operation|
 
 Find the DataPaths for the various units in the presentation document.
+
+
+
+You might want to read the post Machu wrote on building [MicroL'afentika](https://machugram.netlify.app/posts/student/building-microlafentika-2022.html)
