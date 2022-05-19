@@ -173,4 +173,4 @@ Find the DataPaths for the various units in the presentation document.
 
 
 
-You might want to read the post Machu wrote on building [MicroL'afentika](https://machugram.netlify.app/posts/student/building-microlafentika-2022.html)
+You might want to read the post Machu wrote on building [MicroL'afentika](https://rexfordmachu.netlify.app/posts/student/building-microlafentika-2022.html)
