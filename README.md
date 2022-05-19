@@ -1,4 +1,5 @@
-# micro-lafentika
+# micro-lafentika![microlafentika wallpaper](https://user-images.githubusercontent.com/59177804/169384741-f5c58f4d-e3a3-492f-b93d-fbd1016cfee6.png)
+
 Designing a 16-bit functional microprocessor with basic operations from scratch with Logisim.  This is solely for academic purposes.
 
 ## Table of Contents
